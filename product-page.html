@@ -1,0 +1,1787 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>E-commerce Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="css/jquery.formstyler.css" />
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css" />
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <nav class="menu">
+              <button class="menu__btn">
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Магазини</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Акції</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Доставка та оплата</a>
+                </li>
+              </ul>
+            </nav>
+            <a href="index.html" class="logo">
+              <img src="images/logo.jpg" alt="Logo" class="logo__img" />
+            </a>
+            <div class="header__box">
+              <p class="header__address">Київ, вул. Наукова, 97</p>
+              <ul class="user-list">
+                <li class="user-list__item">
+                  <a href="#" class="user-list__link">
+                    <img src="images/favorite-icon.svg" alt="" />
+                  </a>
+                </li>
+                <li class="user-list__item">
+                  <a href="#" class="user-list__link">
+                    <img src="images/user-icon.svg" alt="" />
+                  </a>
+                </li>
+                <li class="user-list__item">
+                  <a href="#" class="user-list__link basket">
+                    <img src="images/shopping-cart-icon.svg" alt="" />
+                    <p class="basket__num">1</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="menu-mobile__list">
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img
+              src="images/user-icon.svg"
+              alt="login"
+              class="menu-mobile__img"
+            />
+            <p>Увійти</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img
+              src="images/user-icon.svg"
+              alt="register"
+              class="menu-mobile__img"
+            />
+            <p>Регістрація</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img
+              src="images/favorite-icon.svg"
+              alt="favorite"
+              class="menu-mobile__img"
+            />
+            <p>Обране</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img
+              src="images/shopping-cart-icon.svg"
+              alt="shopping cart"
+              class="menu-mobile__img"
+            />
+            <p>Корзина</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img src="images/shops.svg" alt="shops" class="menu-mobile__img" />
+            <p>Магазини</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img
+              src="images/percent.svg"
+              alt="percent"
+              class="menu-mobile__img"
+            />
+            <p>Акції</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="#" class="menu-mobile__link">
+            <img
+              src="images/delivery.svg"
+              alt="delivery"
+              class="menu-mobile__img"
+            />
+            <p>Доставка та оплата</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Комп'ютери</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Ноутбуки</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Планшети</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Смартфони</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Акустика</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Монітори</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Периферія</p>
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a href="catalog.html" class="menu-mobile__link">
+            <p>Комплектуючі</p>
+          </a>
+        </li>
+      </ul>
+      <div class="menu-mobile__linewrapper">
+        <ul class="menu-mobile__line">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Магазини</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Акції</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Доставка та оплата</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="menu-categories">
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link"
+                >Комп'ютери</a
+              >
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link">Ноутбуки</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link">Планшети</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link">Смартфони</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link">Акустика</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link">Монітори</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link">Периферія</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="catalog.html" class="menu-categories__link"
+                >Комплектуючі</a
+              >
+            </li>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="breadcrumps">
+      <div class="container">
+        <div class="breadcrumps__inner">
+          <ul class="breadcrumps__list mobile-overflow">
+            <li class="breadcrumps__list-item"><a href="#">Головна</a></li>
+            <li class="breadcrumps__list-item"><span>Відеокарти</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="product-card">
+      <div class="container">
+        <div class="product-card__inner">
+          <div class="product-card__img-box product-item--sale">
+            <img
+              src="images/content/products/videocards1.jpg"
+              alt="Videocard"
+              class="product-card__img"
+            />
+            <p class="product-card__price-old">42 399 ₴</p>
+            <p class="product-card__price-new">39 999 ₴</p>
+            <a href="#" class="product-card__link">
+              Знайшли дешевше? Знизимо ціну!
+            </a>
+          </div>
+          <div class="product-card__content">
+            <h1 class="product-card__title">
+              Відеокарта Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+            </h1>
+            <p class="product-card__code">Код товару: 3666666-2</p>
+            <div class="product-card__buttons">
+              <a href="#" class="product-card__icon-favorite">
+                <img src="images/favorite-icon.svg" alt="favorite" />
+              </a>
+              <a href="#" class="product-card__icon-comparison">
+                <img src="images/comparison.svg" alt="comparison" />
+              </a>
+              <a href="#" class="rate">
+                <div class="rate-yo" data-rateyo-rating="4"></div>
+              </a>
+            </div>
+            <div class="tabs-wrapper product-card__tabs">
+              <div class="tabs">
+                <a href="#product-1" class="tab product-card__tab tab--active">
+                  Характеристики
+                </a>
+                <a href="#product-2" class="tab product-card__tab">
+                  Наявність в магазині
+                </a>
+              </div>
+              <div class="tabs-container">
+                <div
+                  id="product-1"
+                  class="tabs-content product-card__tab-content tabs-content--active"
+                >
+                  <ul class="product-card__list">
+                    <li class="product-card__item">
+                      <div class="product-card__item-left">Частота пам'яті</div>
+                      <div class="product-card__item-right">14000 МГц</div>
+                    </li>
+                    <li class="product-card__item">
+                      <div class="product-card__item-left">Обсяг пам'яті</div>
+                      <div class="product-card__item-right">8 ГБ</div>
+                    </li>
+                    <li class="product-card__item">
+                      <div class="product-card__item-left">
+                        Розрядність шини
+                      </div>
+                      <div class="product-card__item-right">256 біт</div>
+                    </li>
+                    <li class="product-card__item">
+                      <div class="product-card__item-left">Тип пам'яті</div>
+                      <div class="product-card__item-right">GDDR6</div>
+                    </li>
+                    <li class="product-card__item">
+                      <div class="product-card__item-left">Графічний чіп</div>
+                      <div class="product-card__item-right">
+                        GeForce RTX 3070
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="product-card__more">Показати ще</a>
+                  <div class="product-card__btn">
+                    <button>Купити</button>
+                  </div>
+                </div>
+                <div
+                  id="product-2"
+                  class="tabs-content product-card__tab-content"
+                >
+                  Інша вкладка табів
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card__tabs">
+      <div class="container">
+        <div class="tabs-wrapper">
+          <div class="tabs card__tab-box mobile-overflow">
+            <a href="#product-card-tabs-1" class="tab card__tab">Про товар</a>
+            <a href="#product-card-tabs-2" class="tab card__tab"
+              >Характеристики</a
+            >
+            <a href="#product-card-tabs-3" class="tab card__tab">Відгуки</a>
+            <a href="#product-card-tabs-4" class="tab card__tab tab--active"
+              >Самовивіз</a
+            >
+            <a href="#product-card-tabs-5" class="tab card__tab">Доставка</a>
+            <a href="#product-card-tabs-6" class="tab card__tab">Сервіс</a>
+            <a href="#product-card-tabs-7" class="tab card__tab">Гарантія</a>
+          </div>
+        </div>
+        <div class="tabs-container">
+          <div id="product-card-tabs-1" class="card__tab-content tabs-content">
+            another tabs content 1
+          </div>
+          <div id="product-card-tabs-2" class="card__tab-content tabs-content">
+            another tabs content 2
+          </div>
+          <div id="product-card-tabs-3" class="card__tab-content tabs-content">
+            another tabs content 3
+          </div>
+          <div
+            id="product-card-tabs-4"
+            class="tabs-content tabs-content--active"
+          >
+            <form>
+              <div class="card__top-line">
+                <label for="" class="card__label-search">
+                  Магазин
+                  <input type="text" class="card__input-search" />
+                </label>
+                <label for="" class="card__label-pickup">
+                  <input type="radio" name="pickup" class="filter-style" />
+                  Отримати сьогодні
+                </label>
+                <label for="" class="card__label-pickup">
+                  <input
+                    type="radio"
+                    name="pickup"
+                    class="filter-style"
+                    checked
+                  />
+                  Отримати на протязі тижня
+                </label>
+              </div>
+
+              <ul class="card__list">
+                <li class="card__list-item card__list-itemtitle">
+                  <div class="card__list-address">Адреса</div>
+                  <div class="card__list-workhours">Режим роботи</div>
+                  <div class="card__list-available">Наявність</div>
+                  <div class="card__list-num">Кількість</div>
+                  <div class="card__list-btn"></div>
+                </li>
+                <li class="card__list-item">
+                  <div class="card__list-address">Київ, вул. Наукова, 367</div>
+                  <div class="card__list-workhours">
+                    <div class="workhours">
+                      <span>пн-сб:</span><span> 08:00-19:00</span>
+                    </div>
+                    <div class="workhours">
+                      <span>вс:</span><span> 09:00-17:00</span>
+                    </div>
+                  </div>
+                  <div class="card__list-available">В наявності</div>
+                  <div class="card__list-num">1</div>
+                  <div class="card__list-btn">
+                    <button type="submit">придбати</button>
+                  </div>
+                </li>
+                <li class="card__list-item">
+                  <div class="card__list-address">Київ, вул. Паркова, 107</div>
+                  <div class="card__list-workhours">
+                    <div class="workhours">
+                      <span>пн-сб:</span><span> 08:00-19:00</span>
+                    </div>
+                    <div class="workhours">
+                      <span>вс:</span><span> 09:00-17:00</span>
+                    </div>
+                  </div>
+                  <div class="card__list-available">В наявності</div>
+                  <div class="card__list-num">2</div>
+                  <div class="card__list-btn">
+                    <button type="submit">придбати</button>
+                  </div>
+                </li>
+                <li class="card__list-item">
+                  <div class="card__list-address">
+                    Черкаси, бул. Шевченка, 402
+                  </div>
+                  <div class="card__list-workhours">
+                    <div class="workhours">
+                      <span>пн-сб:</span><span> 08:00-19:00</span>
+                    </div>
+                    <div class="workhours">
+                      <span>вс:</span><span> 09:00-17:00</span>
+                    </div>
+                  </div>
+                  <div class="card__list-available">Немає в наявності</div>
+                  <div class="card__list-num">0</div>
+                  <div class="card__list-btn">
+                    <button type="submit">придбати</button>
+                  </div>
+                </li>
+                <li class="card__list-item">
+                  <div class="card__list-address">
+                    Чернівці, пр. Безроздільний, 40/2
+                  </div>
+                  <div class="card__list-workhours">
+                    <div class="workhours">
+                      <span>пн-сб:</span><span> 08:00-19:00</span>
+                    </div>
+                    <div class="workhours">
+                      <span>вс:</span><span> 09:00-17:00</span>
+                    </div>
+                  </div>
+                  <div class="card__list-available">Немає в наявності</div>
+                  <div class="card__list-num">0</div>
+                  <div class="card__list-btn">
+                    <button type="submit">придбати</button>
+                  </div>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div id="product-card-tabs-5" class="card__tab-content tabs-content">
+            another tabs content 5
+          </div>
+          <div id="product-card-tabs-6" class="card__tab-content tabs-content">
+            another tabs content 6
+          </div>
+          <div id="product-card-tabs-7" class="card__tab-content tabs-content">
+            another tabs content 7
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-popular">
+      <div class="container">
+        <div class="products__inner">
+          <h3 class="product__title">З цим товаром купують</h3>
+          <div class="tabs-wrapper">
+            <div class="tabs products__tabs mobile-overflow">
+              <a href="#popular-tab1" class="tab products__tab">відеокарти</a>
+              <a href="#popular-tab2" class="tab products__tab">процесори</a>
+              <a href="#popular-tab3" class="tab products__tab">смартфони</a>
+              <a href="#popular-tab4" class="tab products__tab">планшети</a>
+              <a href="#popular-tab5" class="tab products__tab">ноутбуки</a>
+              <a href="#popular-tab6" class="tab products__tab tab--active"
+                >монітори</a
+              >
+            </div>
+          </div>
+          <div class="tabs-container products__container">
+            <div id="popular-tab1" class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards2.png"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/videocards4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="popular-tab2" class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/processors1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="popular-tab3" class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/smartphones1.png"
+                        alt=""
+                        class="product-item__img phones-img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/smartphones2.jpg"
+                        alt=""
+                        class="product-item__img phones-img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/smartphones3.jpg"
+                        alt=""
+                        class="product-item__img phones-img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/smartphones4.jpg"
+                        alt=""
+                        class="product-item__img phones-img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/smartphones2.jpg"
+                        alt=""
+                        class="product-item__img phones-img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="popular-tab4" class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/tablets4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="popular-tab5" class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks4.png"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks4.png"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/notebooks4.png"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="popular-tab6"
+              class="tabs-content products__content tabs-content--active"
+            >
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a href="product-page.html" class="product-item">
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens3.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div
+                    class="product-item__wrapper product-item__not-available"
+                  >
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens1.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens2.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/shopping-cart-white.svg" alt="" />
+                    </button>
+                    <a
+                      href="product-page.html"
+                      class="product-item__notify-link"
+                    >
+                      <span>повідомити про наявність</span>
+                    </a>
+                    <a
+                      href="product-page.html"
+                      class="product-item product-item--sale"
+                    >
+                      <p class="product-item__hover-text">переглянути товар</p>
+                      <img
+                        src="images/content/products/screens4.jpg"
+                        alt=""
+                        class="product-item__img"
+                      />
+                      <h4 class="product-item__title">
+                        Gigabyte PCI-Ex GeForce RTX 3070 Aorus Master
+                      </h4>
+                      <p class="product-item__price">42 399₴</p>
+                      <p class="product-item__notify-text">немає у наявності</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__top-inner">
+            <div class="footer__top-item footer__top-newsletter">
+              <h6 class="footer__top-title">
+                Підпишіться на нашу розсилку та отримуйте акції швидше
+              </h6>
+              <form class="footer-form">
+                <input
+                  type="email"
+                  class="footer-form__input"
+                  placeholder="Введіть ваш e-mail"
+                />
+                <button class="footer-form__btn" type="submit">
+                  Відправити
+                </button>
+              </form>
+            </div>
+            <div class="footer__top-item">
+              <h6 class="footer__top-title">Інформація</h6>
+              <ul class="footer-list">
+                <li class="footer-list__item"><a href="">Про компанію</a></li>
+                <li class="footer-list__item"><a href="">Контакти</a></li>
+                <li class="footer-list__item"><a href="">Акції</a></li>
+                <li class="footer-list__item"><a href="">Магазини</a></li>
+              </ul>
+            </div>
+            <div class="footer__top-item">
+              <h6 class="footer__top-title">Інтернет-магазин</h6>
+              <ul class="footer-list">
+                <li class="footer-list__item">
+                  <a href="#">Доставка та самовивіз</a>
+                </li>
+                <li class="footer-list__item"><a href="">Оплата</a></li>
+                <li class="footer-list__item"><a href="">Обмін товару</a></li>
+                <li class="footer-list__item"><a href="">Новини</a></li>
+              </ul>
+            </div>
+            <div class="footer__top-item footer__top-social">
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a href="#"
+                    ><img src="images/instagram.svg" alt="Instagram"
+                  /></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#"
+                    ><img src="images/facebook.svg" alt="Facebook"
+                  /></a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#"><img src="images/youtube.svg" alt="Youtube" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <a href="#" class="footer__bottom-link">Договір оферти</a>
+          <a href="#" class="footer__bottom-link"
+            >Політика обробки персональних даних</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
