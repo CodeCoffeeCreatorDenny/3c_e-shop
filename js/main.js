@@ -1,5 +1,5 @@
 $(function () {
-  $(".banner-section__slider").slick({
+  $('.banner-section__slider').slick({
     dots: true,
     prevArrow:
       '<button class="banner-section__slider-btn banner-section__slider-btnprev"><img src="images/arrow-left.svg" alt="arrow left" /></button>',
@@ -7,28 +7,28 @@ $(function () {
       '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="images/arrow-right.svg" alt="arrow right" /></button>',
   });
 
-  $(".tab").on("click", function (e) {
+  $('.tab').on('click', function (e) {
     e.preventDefault();
 
-    $($(this).siblings()).removeClass("tab--active");
-    $($(this).parent().siblings().find("div")).removeClass(
-      "tabs-content--active"
+    $($(this).siblings()).removeClass('tab--active');
+    $($(this).parent().siblings().find('div')).removeClass(
+      'tabs-content--active'
     );
-    $($(this).parent().parent().siblings().find("div")).removeClass(
-      "tabs-content--active"
+    $($(this).parent().parent().siblings().find('div')).removeClass(
+      'tabs-content--active'
     );
 
-    $(this).addClass("tab--active");
-    $($(this).attr("href")).addClass("tabs-content--active");
+    $(this).addClass('tab--active');
+    $($(this).attr('href')).addClass('tabs-content--active');
 
-    $(".product-slider").slick("setPosition");
+    $('.product-slider').slick('setPosition');
   });
 
-  $(".product-item__favorite").on("click", function () {
-    $(this).toggleClass("product-item__favorite--active");
+  $('.product-item__favorite').on('click', function () {
+    $(this).toggleClass('product-item__favorite--active');
   });
 
-  $(".product-slider").slick({
+  $('.product-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow:
@@ -70,45 +70,45 @@ $(function () {
     ],
   });
 
-  $(".filter-style").styler();
+  $('.filter-style').styler();
 
-  $(".filter__item-drop, .filter__extra").on("click", function () {
-    $(this).toggleClass("filter__item-drop--active");
+  $('.filter__item-drop, .filter__extra').on('click', function () {
+    $(this).toggleClass('filter__item-drop--active');
     $(this).next().slideToggle(200);
   });
 
-  $(".js-range-slider").ionRangeSlider({
-    type: "double",
+  $('.js-range-slider').ionRangeSlider({
+    type: 'double',
     min: 5000,
     max: 100000,
   });
 
-  $(".catalog__filter-btngrid").on("click", function () {
-    $(this).addClass("catalog__filter-button--active");
-    $(".catalog__filter-btnline").removeClass("catalog__filter-button--active");
-    $(".product-item__wrapper").removeClass("product-item__wrapper-list");
-    $(".catalog__inner-list .product-item__img").removeClass(
-      "have-another-sort"
+  $('.catalog__filter-btngrid').on('click', function () {
+    $(this).addClass('catalog__filter-button--active');
+    $('.catalog__filter-btnline').removeClass('catalog__filter-button--active');
+    $('.product-item__wrapper').removeClass('product-item__wrapper-list');
+    $('.catalog__inner-list .product-item__img').removeClass(
+      'have-another-sort'
     );
   });
-  $(".catalog__filter-btnline").on("click", function () {
-    $(this).addClass("catalog__filter-button--active");
-    $(".catalog__filter-btngrid").removeClass("catalog__filter-button--active");
-    $(".product-item__wrapper").addClass("product-item__wrapper-list");
-    $(".catalog__inner-list .product-item__img").addClass("have-another-sort");
+  $('.catalog__filter-btnline').on('click', function () {
+    $(this).addClass('catalog__filter-button--active');
+    $('.catalog__filter-btngrid').removeClass('catalog__filter-button--active');
+    $('.product-item__wrapper').addClass('product-item__wrapper-list');
+    $('.catalog__inner-list .product-item__img').addClass('have-another-sort');
   });
 
-  $(".rate-yo").rateYo({
-    ratedFill: "#0C970C",
-    spacing: "7px",
-    normalFill: "#c4c4c4",
+  $('.rate-yo').rateYo({
+    ratedFill: '#0C970C',
+    spacing: '7px',
+    normalFill: '#c4c4c4',
   });
 
-  $(".menu__btn").on("click", function () {
-    $(".menu-mobile__list").toggleClass("menu-mobile__list--active");
+  $('.menu__btn').on('click', function () {
+    $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
   });
 
-  $(".aside__btn").on("click", function () {
+  $('.aside__btn').on('click', function () {
     $(this).next().slideToggle();
   });
 });
